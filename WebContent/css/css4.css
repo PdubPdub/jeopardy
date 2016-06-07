@@ -1,0 +1,77 @@
+
+
+html, body {
+    margin: 0;
+    height: 100%;
+    text-shadow: 3px 3px #000000;
+}
+body {
+	background-image: url("../images/bg3.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	text-shadow: 3px 3px #000000;
+}
+.logo{
+	width: 30%;
+	height: 15%;
+	padding-bottom:350px;
+	text-shadow: 3px 3px #000000;
+}	
+div {
+	border-radius: 15px;
+    width: 600px;
+    height: 100px;
+    margin-left:auto;
+  	margin-right:auto;
+	background-color:#071278;
+	text-align: center;
+	right:0px;
+	box-shadow: 3px 3px 5px #000000;
+	opacity: 0.95; 
+}
+
+.name{
+	padding: 0px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 0px 0;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size:36px;
+	font-weight:bold;
+	background-color:#071278;
+	text-align: center; 
+	color:#D69F4C;
+}
+.cat{
+	padding: 0px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 0px 0;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size:36px;
+	font-weight:bold;
+	background-color:#071278;
+	text-align: center; 
+	color:#8FBCFB;
+}
+.submit{
+	 cursor:pointer;
+	 color: #000;
+	 color:;
+	 font-size: 20;
+	 width: 200px;
+	 height: 50px;
+	 border: none;
+	 margin: 0;
+	 padding: 0;
+	 background: #D69F4C url(image) 0 0 no-repeat; 
+	 vertical-align: middle;
+	 display: table-cell;
+	 font-weight:bold;
+}
+.submit:focus {border-color:#333; 
+}
+.submit:hover{
+    border: 5px solid #999;color:#000;
+}
+input[type=number]{
+	width: 160px;
+}
